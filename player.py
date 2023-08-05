@@ -33,6 +33,7 @@ class Player(pygame.sprite.Sprite):
         else:
             self.directions.x = 0
 
+
     def move(self, dt):
 
         # normalizing the vector
